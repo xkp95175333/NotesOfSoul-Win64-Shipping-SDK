@@ -1,0 +1,12 @@
+// UserDefinedStruct ST_MarkingType.ST_MarkingType
+// Size: 0x5c (Inherited: 0x00)
+struct FST_MarkingType {
+	SoftClassProperty Type_18_5E6E11664833E2BEDAA73AAF8DA3B68E; // 0x00(0x28)
+	int32_t ItemID_21_D8832E534BCA58BE018011A6AD65D230; // 0x28(0x04)
+	char pad_2C[0x4]; // 0x2c(0x04)
+	struct UTexture2D* Texture_5_0630ABC64FB5A59E8A9EC2BE12DAEB18; // 0x30(0x08)
+	struct UTexture2D* BGTexture_25_F8AA28EB4C10FE64F6F56A97E6787607; // 0x38(0x08)
+	struct FText Name_8_7392FA914F1DE0260E6F05A790A52190; // 0x40(0x18)
+	float TheTimeToDestory_17_07E0674841E35C0EDE2E4C83818394C2; // 0x58(0x04)
+};
+

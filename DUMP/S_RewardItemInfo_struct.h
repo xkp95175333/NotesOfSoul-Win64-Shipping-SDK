@@ -1,0 +1,12 @@
+// UserDefinedStruct S_RewardItemInfo.S_RewardItemInfo
+// Size: 0x38 (Inherited: 0x00)
+struct FS_RewardItemInfo {
+	int32_t ID_18_F5C5B7D14FE38DE2B03DD8B9B533A65D; // 0x00(0x04)
+	char pad_4[0x4]; // 0x04(0x04)
+	struct FText Name_12_6EEADEA44D03AC1750811192F0E78681; // 0x08(0x18)
+	int32_t Num_7_9121130F44D2753799DFE09FE5339A85; // 0x20(0x04)
+	int32_t Level_11_AC268FCE45581A94196562A50FF50B5C; // 0x24(0x04)
+	struct UTexture* Image_8_7AC84B9F48560DD95C1E4A91485F99C1; // 0x28(0x08)
+	struct UTexture2D* LevelImage_15_0AC380CE4E346001C4E6F889CAA848AB; // 0x30(0x08)
+};
+

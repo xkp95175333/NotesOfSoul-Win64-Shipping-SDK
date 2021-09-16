@@ -1,0 +1,10 @@
+// UserDefinedStruct TopUpStr.TopUpStr
+// Size: 0x30 (Inherited: 0x00)
+struct FTopUpStr {
+	int32_t id_2_EF1A9F244377CCB80CC48FABA36A4CB5; // 0x00(0x04)
+	int32_t MaxNum_4_743F076840B270CF249839AD576513CA; // 0x04(0x04)
+	struct TArray<int32_t> itemid_23_7CFB74A14C97C9771B3B6A88350FDFDE; // 0x08(0x10)
+	struct TArray<int32_t> itemnum_27_70037C9A4F68BA69A1F2A68628BC3AB4; // 0x18(0x10)
+	struct UTexture2D* ItemIco_28_6B613A0F46F37038096134998E504ADA; // 0x28(0x08)
+};
+

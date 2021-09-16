@@ -1,0 +1,10 @@
+// UserDefinedStruct ConfirmCoinData.ConfirmCoinData
+// Size: 0x14 (Inherited: 0x00)
+struct FConfirmCoinData {
+	int32_t ItemType_11_D31DA01449EA724B1A208BA9C9184376; // 0x00(0x04)
+	int32_t ItemID_8_034032C1441D7C48C48E6EAD5BC96ECB; // 0x04(0x04)
+	int32_t ItemNumber_14_5CCDFAF8461165F6A6B2C39A18B4D03B; // 0x08(0x04)
+	int32_t CoinType_5_B7183EA948270F073972428825AE94BF; // 0x0c(0x04)
+	int32_t CoinNumber_7_253E099D430EA96BB6F2D0B2EA45FB63; // 0x10(0x04)
+};
+

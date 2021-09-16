@@ -1,0 +1,10 @@
+// UserDefinedStruct Struct_RankLevel.Struct_RankLevel
+// Size: 0x18 (Inherited: 0x00)
+struct FStruct_RankLevel {
+	int32_t Grade_31_7F7AFE1D425E1915CDFC9E808B2EA393; // 0x00(0x04)
+	int32_t Level_32_EABB6EBC443B2E9BA7F9E0A4ECCE188B; // 0x04(0x04)
+	int32_t Score_33_A749DDEC4C3ED3B47D2A9F9E780FD636; // 0x08(0x04)
+	int32_t Stars_34_FFDBBA79447A717CDAD240B610DC1459; // 0x0c(0x04)
+	struct UTexture2D* RankLevelImage_30_0B574EF940FEBDCFCFA855902158D35F; // 0x10(0x08)
+};
+

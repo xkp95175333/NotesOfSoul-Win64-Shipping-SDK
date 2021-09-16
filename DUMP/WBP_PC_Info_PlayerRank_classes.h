@@ -1,0 +1,65 @@
+// WidgetBlueprintGeneratedClass WBP_PC_Info_PlayerRank.WBP_PC_Info_PlayerRank_C
+// Size: 0x480 (Inherited: 0x26c)
+struct UWBP_PC_Info_PlayerRank_C : UWBP_PC_Base_C {
+	char pad_26C[0x4]; // 0x26c(0x04)
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x270(0x08)
+	struct UImage* GDiPear1; // 0x278(0x08)
+	struct UImage* GDiPear2; // 0x280(0x08)
+	struct UImage* GDiPear3; // 0x288(0x08)
+	struct UImage* GDiPear4; // 0x290(0x08)
+	struct UImage* GHuangPear2; // 0x298(0x08)
+	struct UImage* GHuangPearl1; // 0x2a0(0x08)
+	struct UImage* GSkyPear1; // 0x2a8(0x08)
+	struct UImage* GSkyPear2; // 0x2b0(0x08)
+	struct UImage* GSkyPear3; // 0x2b8(0x08)
+	struct UImage* GSkyPear4; // 0x2c0(0x08)
+	struct UImage* GSkyPear5; // 0x2c8(0x08)
+	struct UImage* GXuanPear1; // 0x2d0(0x08)
+	struct UImage* GXuanPear2; // 0x2d8(0x08)
+	struct UImage* GXuanPear3; // 0x2e0(0x08)
+	struct UImage* HDiPearl1; // 0x2e8(0x08)
+	struct UImage* HDiPearl2; // 0x2f0(0x08)
+	struct UImage* HDiPearl3; // 0x2f8(0x08)
+	struct UImage* HDiPearl4; // 0x300(0x08)
+	struct UImage* HHuangPearl1; // 0x308(0x08)
+	struct UImage* HHuangPearl2; // 0x310(0x08)
+	struct UImage* HSkyPearl1; // 0x318(0x08)
+	struct UImage* HSkyPearl2; // 0x320(0x08)
+	struct UImage* HSkyPearl3; // 0x328(0x08)
+	struct UImage* HSkyPearl4; // 0x330(0x08)
+	struct UImage* HSkyPearl5; // 0x338(0x08)
+	struct UImage* HXuanPearl1; // 0x340(0x08)
+	struct UImage* HXuanPearl2; // 0x348(0x08)
+	struct UImage* HXuanPearl3; // 0x350(0x08)
+	struct UImage* Image_RankGhost; // 0x358(0x08)
+	struct UImage* Image_RankHuman; // 0x360(0x08)
+	struct UImage* RankBG1; // 0x368(0x08)
+	struct UImage* RankBG2; // 0x370(0x08)
+	struct UTextBlock* Text_RankGhost; // 0x378(0x08)
+	struct UTextBlock* Text_RankHuman; // 0x380(0x08)
+	int32_t Grade_1; // 0x388(0x04)
+	char pad_38C[0x4]; // 0x38c(0x04)
+	struct TArray<struct UTexture2D*> GhostImg; // 0x390(0x10)
+	struct TArray<struct UTexture2D*> HumanImg; // 0x3a0(0x10)
+	struct FRankNodeNew Ghost Rank; // 0x3b0(0x20)
+	struct FRankNodeNew Human Rank; // 0x3d0(0x20)
+	struct UTexture2D* HumanPearl; // 0x3f0(0x08)
+	struct UTexture2D* GhostPearl; // 0x3f8(0x08)
+	struct TArray<struct UImage*> HHuangPearl; // 0x400(0x10)
+	struct TArray<struct UImage*> HXuanPearl; // 0x410(0x10)
+	struct TArray<struct UImage*> HDiPearl; // 0x420(0x10)
+	struct TArray<struct UImage*> HSkyPearl; // 0x430(0x10)
+	struct TArray<struct UImage*> GHuangPearl; // 0x440(0x10)
+	struct TArray<struct UImage*> GXuanPearl; // 0x450(0x10)
+	struct TArray<struct UImage*> GDiPearl; // 0x460(0x10)
+	struct TArray<struct UImage*> GSkyPearl; // 0x470(0x10)
+
+	void MakePearlArray(); // Function WBP_PC_Info_PlayerRank.WBP_PC_Info_PlayerRank_C.MakePearlArray // (Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1ec38f0
+	void HandleGhost(int32_t Grade, int32_t Star); // Function WBP_PC_Info_PlayerRank.WBP_PC_Info_PlayerRank_C.HandleGhost // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1ec38f0
+	void HandleHuman(int32_t Grade, int32_t Star); // Function WBP_PC_Info_PlayerRank.WBP_PC_Info_PlayerRank_C.HandleHuman // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x1ec38f0
+	void SetHumanRank(); // Function WBP_PC_Info_PlayerRank.WBP_PC_Info_PlayerRank_C.SetHumanRank // (Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1ec38f0
+	void SetGhostRank(); // Function WBP_PC_Info_PlayerRank.WBP_PC_Info_PlayerRank_C.SetGhostRank // (Public|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x1ec38f0
+	void On Parent Constructed(int32_t ParentSpecPlayerUID); // Function WBP_PC_Info_PlayerRank.WBP_PC_Info_PlayerRank_C.On Parent Constructed // (BlueprintCallable|BlueprintEvent) // @ game+0x1ec38f0
+	void ExecuteUbergraph_WBP_PC_Info_PlayerRank(int32_t EntryPoint); // Function WBP_PC_Info_PlayerRank.WBP_PC_Info_PlayerRank_C.ExecuteUbergraph_WBP_PC_Info_PlayerRank // (Final|UbergraphFunction|HasDefaults) // @ game+0x1ec38f0
+};
+
